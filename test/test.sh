@@ -53,6 +53,10 @@ function test_list() {
 [ "${persons__age[1]}" = "\"77\"" ] &&
 [ "${persons__email[1]}" = "\"joao@email.com\"" ] &&
 
+[ "${persons__name[2]}" = "Tests" ] &&
+[ "${persons__age[2]}" = "1337" ] &&
+[ "${persons__email[2]}" = "tests@email.com" ] &&
+
 [ "$complex_test_simple_obj_attr" = "\"value\"" ] &&
 [ "$complex_test_simple_obj_other_attr" = "other \"value\"" ] &&
 

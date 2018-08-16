@@ -14,6 +14,10 @@ persons:
     name: "João"
     age: "77"
     email: "joao@email.com"
+  -
+    name: Tests
+    age: 1337
+    email: tests@email.com
 
 --
 complex_test:
